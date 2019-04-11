@@ -2,7 +2,7 @@
 CSC207H1S final project phase 1
 
 ### PROJECT TITLE
-This is an simulation of a real-life ATM machine. Main class src/Atm.java
+This is an simulation of a real-life ATM machine.
 
 ### BANK MANGER
 Bank manager has default username "admin" and default password "CS207fun"
@@ -15,8 +15,8 @@ Bank manager has default username "admin" and default password "CS207fun"
     
 - Username must have a length between 5 and 15 (inclusive)
 
-### ATM MACHINE
-    - Bank manager will create a default machine with 100 $5, $10, $20, $50 cash each.
+### TO EXIT PROGRAM
+You need to keep pressing X until the program closes. Force terminated running instances will not be serialized.
 
 ### FILES
 - Program related files are stored in phase1/data.
@@ -36,8 +36,6 @@ Bank manager has default username "admin" and default password "CS207fun"
 - testData.txt is used ONLY for TESTING purposes
 
 ### PROGRAM START
-- The main class is /src/Atm.java. You need to set initial time when there is no serialized manager found.
-    
-- The program shuts down every day between 23:59 and 00:01. Between these times, you are unable to perform any actions.
+- The main class is /src/ui/MainFrame.java. You need to set initial time when there is no serialized manager found.
 
-- After system restarts with a piece of information, you should follow that information and enter the restart key to restart the system.
+- The program shuts down every day between 23:59 and 00:01. Between these times, you are unable to perform any actions and all windows will be force-disposed. The program will restart to login menu after the period ends.
