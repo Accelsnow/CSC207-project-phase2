@@ -39,3 +39,7 @@ You need to keep pressing X until the program closes. Force terminated running i
 - The main class is /src/ui/MainFrame.java. You need to set initial time when there is no serialized manager found.
 
 - The program shuts down every day between 23:59 and 00:01. Between these times, you are unable to perform any actions and all windows will be force-disposed. The program will restart to login menu after the period ends.
+
+
+# Contributors
+Me (full structure design & implementations), tsao (terminal interactions), sheldon (file handling, debug testing), amanda (test writing)
