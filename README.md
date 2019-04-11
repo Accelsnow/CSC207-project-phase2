@@ -1,5 +1,5 @@
-# proj207p1
-CSC207H1S final project phase 1
+# proj207p2
+CSC207H1S final project phase 2
 
 ### PROJECT TITLE
 This is an simulation of a real-life ATM machine.
@@ -42,4 +42,4 @@ You need to keep pressing X until the program closes. Force terminated running i
 
 
 # Contributors
-Me (full structure design & implementations), tsao (terminal interactions), sheldon (file handling, debug testing), amanda (test writing)
+Me (full structure design & implementations, swing GUI), tsao (stock acc), sheldon (file handling, debug testing), amanda (stock acc)
